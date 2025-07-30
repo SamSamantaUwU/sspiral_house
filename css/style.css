@@ -22,13 +22,13 @@ h1, h2, h3, h4.dm-serif-text-regular-italic {
 
 .quadro-verde {
     background-color: #09551b;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
 }
 
 .quadro-vermelho{
     background-color: #910a0a;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     margin-top: 120px !important;
 }
