@@ -20,6 +20,23 @@
   justify-content: space-around;
 }
 
+a{
+  text-decoration: none;
+
+}
+
+a:link{
+  color: #fff9f9;
+}
+
+a:hover{
+color: #C70E0E;
+}
+
+a:active{
+  color: #fff9f9;
+}
+
 .box1 {
   height: 170px;
   width: 315px;
@@ -28,6 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-position: center;
 
 }
 
@@ -37,10 +55,12 @@
   height: 170px;
   width: 315px;
   border-radius: 20px;
-  background-color: #440677;
+  background-image: linear-gradient(transparent 0%, #44067767 0px), url('/Imagens/espiral.jpg');
   display: flex;
   align-items: center;
   justify-content: center;
+  background-position: center;
+
 
 }
 
@@ -65,9 +85,8 @@ h1 {
   flex-direction: column;
   gap: 50px;
   padding: 40px;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
   text-align: center;
-  
 }
 
 .sspiral {
@@ -75,4 +94,10 @@ h1 {
   width: 250px;
   border-radius: 100%;
   display: flex;
+}
+
+.rodapé{
+display: flex;
+justify-content: space-around;
+margin: 20px;
 }
